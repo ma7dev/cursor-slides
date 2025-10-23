@@ -1,7 +1,7 @@
 ---
-title: Cursor AI Meetup - Riyadh 2025
+title: "Cursor Riyadh: Build your MVP with AI!"
 info: |
-  First Cursor AI Meetup in Riyadh · Bringing cutting-edge AI development tools to Saudi developers
+   "Cursor Riyadh: Build your MVP with AI!"
 class: bg-[#0F0F0F] text-white
 mdc: true
 theme: default
@@ -10,6 +10,7 @@ background: '#0F0F0F'
 transition: slide-left
 ---
 
+<!-- TODO: add the game -->
 <div class="flex flex-col items-center justify-center h-full gap-8">
   <h2 class="text-3xl font-bold text-white mb-4">Scan to ask questions</h2>
   <div class="w-52 h-52 bg-white rounded-lg flex items-center justify-center overflow-hidden">
@@ -28,9 +29,9 @@ transition: slide-up
 </div>
 
 <div class="flex flex-col items-center gap-8">
-  <h1 class="text-6xl font-bold tracking-tight text-white">Cursor Meetup Riyadh</h1>
-  <h2 class="text-3xl text-[#6E6E6E]">May 28, 2025</h2>
-  <p class="text-xl text-white opacity-80">Welcome to the Future</p>
+  <h1 class="text-6xl font-bold tracking-tight text-white">Build your MVP with AI!</h1>
+  <h2 class="text-3xl text-[#6E6E6E]">July 30, 2025</h2>
+  <p class="text-xl text-white opacity-80">Cursor Riyadh</p>
 </div>
 
 ---
@@ -40,7 +41,8 @@ transition: fade-out
 ---
 
 <div class="flex flex-col items-center justify-center h-full gap-8">
-  <h2 class="text-3xl font-bold text-white mb-4">Our Partners</h2>
+  <!-- <h2 class="text-3xl font-bold text-white mb-4">Our Partners</h2> -->
+  <h2 class="text-3xl font-bold text-white mb-4">Our Partner</h2>
   <div class="flex gap-8 items-center">
     <div class="flex flex-col items-center gap-4">
       <div class="bg-white flex items-center justify-center overflow-hidden">
@@ -48,97 +50,54 @@ transition: fade-out
       </div>
       <p class="text-lg text-white font-semibold">Hosting Partner</p>
     </div>
-    <div class="flex flex-col items-center gap-4">
+    <!-- <div class="flex flex-col items-center gap-4">
       <div class="flex items-center justify-center overflow-hidden">
           <img src="/assets/partner_nauatech.jpeg" alt="Nauatech Logo" class="w-full h-full object-cover" />
       </div>
       <p class="text-lg text-white font-semibold">Community Partner</p>
-    </div>
+    </div> -->
   </div>
 </div>
 
 ---
-layout: two-cols
-layoutClass: gap-8
-class: px-6
+layout: center
+class: text-center
 ---
 
 # Agenda
 
-<div class="text-center mb-6">
-  <h2 class="text-xl font-bold mb-4">Part 1</h2>
-</div>
-
-<div v-click="1" class="grid grid-cols-1 gap-2">  
-  <div class="bg-[#171717] border border-[#252525] rounded-lg p-4 hover:bg-[#1F1F1F] transition-colors mb-2">
-    <div class="flex justify-between items-center">
-      <span class="text-[#6E6E6E] text-xs">7:00pm</span>
-      <span class="font-semibold text-sm">🎯 Meetup Introduction</span>
-      <span class="text-[#6E6E6E] text-xs">@ma7dev</span>
+<div class="max-w-2xl mx-auto">
+  <div v-click="1" class="grid grid-cols-1 gap-4">  
+    <div class="bg-[#171717] border border-[#252525] rounded-lg p-3 hover:bg-[#1F1F1F] transition-colors">
+      <div class="flex justify-between items-center">
+        <span class="text-[#6E6E6E] text-lg font-medium">6:00pm</span>
+        <span class="font-semibold text-lg">🎯 Introduction</span>
+        <span class="text-[#6E6E6E] text-lg">30 min</span>
+      </div>
+      <p class="text-[#6E6E6E] text-sm mt-2">Choose partners, choose problems to solve</p>
     </div>
-  </div>
-  
-  <div class="bg-[#171717] border border-[#252525] rounded-lg p-4 hover:bg-[#1F1F1F] transition-colors mb-2">
-    <div class="flex justify-between items-center">
-      <span class="text-[#6E6E6E] text-xs">7:15pm</span>
-      <span class="font-semibold text-sm">👨‍💻 Cursor Team Talk & Q&A</span>
-      <span class="text-[#6E6E6E] text-xs">@danperks_</span>
+    <div class="bg-[#171717] border border-[#252525] rounded-lg p-3 hover:bg-[#1F1F1F] transition-colors">
+      <div class="flex justify-between items-center">
+        <span class="text-[#6E6E6E] text-lg font-medium">6:30pm</span>
+        <span class="font-semibold text-lg text-green-400">🚀 BUILD TIME!</span>
+        <span class="text-[#6E6E6E] text-lg">2.5 hours</span>
+      </div>
+      <p class="text-[#6E6E6E] text-sm mt-2">Build your MVP with AI tools - we're here to help!</p>
     </div>
-  </div>
-  
-  <div class="bg-[#171717] border border-[#252525] rounded-lg p-4 hover:bg-[#1F1F1F] transition-colors mb-2">
-    <div class="flex justify-between items-center">
-      <span class="text-[#6E6E6E] text-xs">7:30pm</span>
-      <span class="font-semibold text-sm">🔧 Everything About Cursor</span>
-      <span class="text-[#6E6E6E] text-xs">@ma7dev</span>
+    <div class="bg-[#171717] border border-[#252525] rounded-lg p-3 hover:bg-[#1F1F1F] transition-colors">
+      <div class="flex justify-between items-center">
+        <span class="text-[#6E6E6E] text-lg font-medium">9:00pm</span>
+        <span class="font-semibold text-lg">🎤 Presentations</span>
+        <span class="text-[#6E6E6E] text-lg">30 min</span>
+      </div>
+      <p class="text-[#6E6E6E] text-sm mt-2">Show off your creations to the group</p>
     </div>
-  </div>
-  
-  <div class="bg-[#171717] border border-[#252525] rounded-lg p-4 hover:bg-[#1F1F1F] transition-colors mb-2">
-    <div class="flex justify-between items-center">
-      <span class="text-[#6E6E6E] text-xs">8:00pm</span>
-      <span class="font-semibold text-sm">☕ Break</span>
-      <span class="text-[#6E6E6E] text-xs">10 minutes</span>
-    </div>
-  </div>
-</div>
-
-::right::
-
-<div class="text-center mb-6 mt-14">
-  <h2 class="text-xl font-bold mb-4">Part 2</h2>
-</div>
-
-<div v-click="2" class="grid grid-cols-1 gap-2">
-  <div class="bg-[#171717] border border-[#252525] rounded-lg p-4 hover:bg-[#1F1F1F] transition-colors mb-2">
-    <div class="flex justify-between items-center">
-      <span class="text-[#6E6E6E] text-xs">8:10pm</span>
-      <span class="font-semibold text-sm">🖥️ Local Models w/ Cursor</span>
-      <span class="text-[#6E6E6E] text-xs">@AbdoMosaibah</span>
-    </div>
-  </div>
-  
-  <div class="bg-[#171717] border border-[#252525] rounded-lg p-4 hover:bg-[#1F1F1F] transition-colors mb-2">
-    <div class="flex justify-between items-center">
-      <span class="text-[#6E6E6E] text-xs">8:30pm</span>
-      <span class="font-semibold text-sm">🧠 Memory Bank & Adv. Usage</span>
-      <span class="text-[#6E6E6E] text-xs">@ma7dev</span>
-    </div>
-  </div>
-  
-  <div class="bg-[#171717] border border-[#252525] rounded-lg p-4 hover:bg-[#1F1F1F] transition-colors mb-2">
-    <div class="flex justify-between items-center">
-      <span class="text-[#6E6E6E] text-xs">9:00pm</span>
-      <span class="font-semibold text-sm">🤝 Networking</span>
-      <span class="text-[#6E6E6E] text-xs"></span>
-    </div>
-  </div>
-  
-  <div class="bg-[#171717] border border-[#252525] rounded-lg p-4 hover:bg-[#1F1F1F] transition-colors">
-    <div class="flex justify-between items-center">
-      <span class="text-[#6E6E6E] text-xs">9:30pm</span>
-      <span class="font-semibold text-sm">🎉 Event End</span>
-      <span class="text-[#6E6E6E] text-xs"></span>
+    <div class="bg-[#171717] border border-[#252525] rounded-lg p-3 hover:bg-[#1F1F1F] transition-colors">
+      <div class="flex justify-between items-center">
+        <span class="text-[#6E6E6E] text-lg font-medium">9:30pm</span>
+        <span class="font-semibold text-lg">🎉 Wrap Up</span>
+        <span class="text-[#6E6E6E] text-lg"></span>
+      </div>
     </div>
   </div>
 </div>
@@ -155,20 +114,47 @@ transition: slide-up
 <div class="text-4xl font-bold text-white mb-8">🎯</div>
 
 Setting the stage for our Cursor journey
+
+---
+layout: center
+class: text-center
+---
+
+<div class="flex flex-col items-center justify-center h-full gap-8">
+  <h1 class="text-lg text-white">What is vibe coding?</h1>
+</div>
+
+---
+layout: center
+class: text-center
+---
+
+<div class="flex flex-col items-center justify-center h-full gap-8">
+  <div class="w-150 h-full bg-white rounded-lg flex items-center justify-center overflow-hidden">
+    <img src="/assets/2025-07-29-nik.png" alt="QR Code for Q&A" class="w-full h-full object-cover" />
+  </div>
+</div>
+
 ---
 layout: center
 class: px-8
 transition: slide-up
 ---
 
-<div class="absolute left-8 top-1/3 transform -translate-y-1/2">
+<div class="absolute left-8 top-4/6 transform -translate-y-1/2">
   <img src="/assets/pytorch_award.jpeg" alt="PyTorch Award" class="w-48 h-auto rounded-lg shadow-lg" />
 </div>
-<div class="absolute right-8 top-1/4 transform -translate-y-1/2">
+<div class="absolute left-8 top-1/4 transform -translate-y-1/2">
   <img src="/assets/osu_logo.jpg" alt="OSU Logo" class="w-48 h-auto rounded-lg shadow-lg" />
 </div>
 <div class="absolute right-8 top-1/2 transform -translate-y-1/2">
   <img src="/assets/malaa_logo.svg" alt="Malaa Logo" class="w-48 h-auto rounded-lg shadow-lg" />
+</div>
+<div class="absolute right-8 top-1/4 transform -translate-y-1/2">
+    <img src="/assets/deepsa_logo_2.svg" alt="DeepSA Logo" class="w-full h-auto" />
+</div>
+<div class="absolute right-8 top-8/10 transform -translate-y-1/2">
+  <img src="/assets/cursor_riyadh.jpeg" alt="Cursor Logo" class="w-48 h-auto rounded-lg shadow-lg" />
 </div>
 <div class="flex flex-col items-center space-y-6 mt-8">
   <div class="w-48 h-48 bg-[#171717] border border-[#252525] rounded-full flex items-center justify-center">
@@ -177,6 +163,7 @@ transition: slide-up
   
   <div class="text-center space-y-4 max-w-2xl">
       <h2 class="text-lg text-white font-semibold">Mazen Alotaibi</h2>
+      <p class="text-lg ">AI Staff Engineer at <a href="https://deep.sa" class="text-white">deep.sa</a></p>
       <p class="text-lg ">Senior ML Engineer at <a href="https://maala.tech" class="text-white">Malaa Technologies</a></p>
       <p class="text-lg ">MSc AI and BSc CS from <a href="https://oregonstate.edu" class="text-white">Oregon State University</a></p>
       <p class="text-lg">2023 PyTorch Ambassador Award & Cursor Ambassador</p>
@@ -185,20 +172,32 @@ transition: slide-up
   </div>
 </div>
 
-<div v-click="1" class="absolute bottom-8 right-8">
-  <p class="text-white text-lg">👀 Next Chapter</p>
-</div>
-
 ---
 layout: center
-class: px-8 bg-[#033D22]
-background: '#033D22'
-style: 'background-color: #033D22 !important;'
+class: px-8
+transition: slide-up
 ---
 
-<div class="flex flex-col items-center justify-center h-full">
-  <div class="w-96 h-auto">
-    <img src="/assets/deepsa_logo_2.svg" alt="DeepSA Logo" class="w-full h-auto" />
+<!-- <div class="absolute left-8 top-4/6 transform -translate-y-1/2">
+  <img src="/assets/pytorch_award.jpeg" alt="PyTorch Award" class="w-48 h-auto rounded-lg shadow-lg" />
+</div> -->
+<div class="absolute left-8 top-1/4 transform -translate-y-1/2">
+  <img src="/assets/kfupm_logo.jpeg" alt="KFUPM Logo" class="w-48 h-auto rounded-lg shadow-lg" />
+</div>
+<div class="absolute right-8 top-1/2 transform -translate-y-1/2">
+  <img src="/assets/thiqah_logo.png" alt="Thiqah Logo" class="w-48 h-auto rounded-lg shadow-lg" />
+</div>
+<div class="flex flex-col items-center space-y-6 mt-8">
+  <div class="w-48 h-48 bg-[#171717] border border-[#252525] rounded-full flex items-center justify-center">
+    <img src="/assets/faris_pfp.jpeg" alt="Faris Hijazi" class="w-full h-full object-cover rounded-full" />
+  </div>
+  
+  <div class="text-center space-y-4 max-w-2xl">
+      <h2 class="text-lg text-white font-semibold">Faris Hijazi</h2>
+      <p class="text-lg ">Data Science Lead Specialist at <a href="https://thiqah.com" class="text-white">Thiqah</a></p>
+      <p class="text-lg ">BSc CEng from <a href="https://www.kfupm.edu.sa/" class="text-white">King Fahd University of Petroleum and Minerals</a></p>
+      <p class="text-lg"><a href="https://linkedin.com/in/theeFaris" class="text-white">Faris Hijazi</a> | <a href="https://x.com/theefaris" class="text-white">@theefaris</a></p>
+      <p class="text-lg">+966 505501494</p>
   </div>
 </div>
 
@@ -313,38 +312,6 @@ class: px-8
 <div class="absolute right-8 top-5/6 transform -translate-y-1/2 flex flex-col items-center">
     <img src="/assets/discord_qr_code.jpg" alt="Cursor Logo" class="w-40 h-40 transition-transform duration-300" />
     <p class="text-white">Cursor Meetup Riyadh</p>
-</div>
-
----
-layout: section
-class: text-center
-background: '#171717'
-transition: slide-up
----
-
-# Cursor Team Talk
-
-<div class="text-4xl font-bold text-white mb-8">👨‍💻</div>
-
-Direct insights from the Cursor engineering team
-
----
-layout: center
-class: text-center px-8
----
-
-<div class="flex flex-col items-center gap-6 mt-8">
-  <div class="w-32 h-32 bg-[#171717] border border-[#252525] rounded-full flex items-center justify-center overflow-hidden">
-    <img src="https://media.licdn.com/dms/image/v2/D4E03AQETbXEjybY6xw/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1728639254798?e=1753920000&v=beta&t=iJWT6Mc-ZSDU5k9NCZhh_bI7Hcv8jUPcYOKmXWTCahs" alt="Dan Perks" class="w-full h-full object-cover" />
-  </div>
-  
-  <div class="text-center">
-    <h2 class="text-2xl font-bold mb-2">Dan Perks</h2>
-    <p class="text-lg text-[#6E6E6E] mb-4">User Operations at Anysphere</p>
-    <div class="bg-[#171717] border border-[#252525] rounded-lg p-4 max-w-md">
-      <p class="text-sm mt-2">Working to improve Cursor's user experience from end to end</p>
-    </div>
-  </div>
 </div>
 
 ---
@@ -611,9 +578,14 @@ class: text-left px-8
 - **🎯 Rules**: Set up user-specific or project-specific rules to guide AI behavior
 - **📝 AI Commit Messages**: Intelligent git commit generation  
 - **💾 Checkpoints**: Restore previous states easily
-- **🔗 Multi-Root Workspaces**: Manage multiple repositories
+- **🔗 Multi-Root Workspaces**: Manage multiple repositories with cross-folder indexing
 - **🏗️ Model Context Protocol (MCP)**: Interact with external tools
-- (NEW) **🔄 Background Agent**: Parallel task execution (linting, testing, docs)
+- **🔄 Background Agent**: Parallel task execution for larger tasks (early preview)
+- **🐛 Bugbot**: Automated bug detection and fixing
+- **📑 PR Index**: Pull request analysis and management (Ultra plan)
+- **⚡ Enhanced Tab Model**: Multi-file edits, refactoring, and navigation
+- **🎨 Refreshed Inline Edit**: Improved CMD+K with new UI and options
+- **🧠 Max Mode**: Token-based pricing for complex tasks requiring extensive context
 - and much more...
 
 ---
@@ -660,38 +632,26 @@ class: px-8
 
 # Pricing
 
-<div class="grid grid-cols-3 gap-8 mt-8">
-  <div class="bg-[#171717] border border-[#252525] rounded-lg p-6">
+<div class="grid grid-cols-3 gap-6 mt-8">
+  <div class="bg-[#171717] border border-[#252525] rounded-lg p-3">
     <h3 class="text-xl font-bold mb-4">🆓 Hobby</h3>
     <p class="text-lg font-semibold text-white mb-2">Free</p>
-    <p class="text-sm text-[#6E6E6E] mb-4">Includes:</p>
-    <ul class="text-sm text-[#6E6E6E] space-y-2">
-      <li>Pro two-week trial</li>
-      <li>2,000 completions per month</li>
-      <li>50 slow requests per month</li>
-    </ul>
   </div>
-  <div class="bg-[#171717] border border-[#252525] rounded-lg p-6">
+  <div class="bg-[#171717] border border-[#252525] rounded-lg p-3">
     <h3 class="text-xl font-bold mb-4">💼 Pro</h3>
     <p class="text-lg font-semibold text-white mb-2">$20/month</p>
-    <p class="text-sm text-[#6E6E6E] mb-4">Everything in Hobby, plus:</p>
-    <ul class="text-sm text-[#6E6E6E] space-y-2">
-      <li>Unlimited completions</li>
-      <li>500 fast requests per month</li>
-      <li>Unlimited slow requests</li>
-      <li>Max Mode (useful for large codebases and complex tasks)</li>
-    </ul>
   </div>
-  <div class="bg-[#171717] border border-[#252525] rounded-lg p-6">
-    <h3 class="text-xl font-bold mb-4">🏢 Business</h3>
+    <div class="bg-[#171717] border border-[#252525] rounded-lg p-3">
+    <h3 class="text-xl font-bold mb-4">➕ Pro+</h3>
+    <p class="text-lg font-semibold text-white mb-2">$60/month</p>
+  </div>
+  <div class="bg-[#171717] border border-[#252525] rounded-lg p-3">
+    <h3 class="text-xl font-bold mb-4">🚀 Ultra</h3>
+    <p class="text-lg font-semibold text-white mb-2">$200/month</p>
+  </div>
+  <div class="bg-[#171717] border border-[#252525] rounded-lg p-3">
+    <h3 class="text-xl font-bold mb-4">🏢 Teams</h3>
     <p class="text-lg font-semibold text-white mb-2">$40/user/month</p>
-    <p class="text-sm text-[#6E6E6E] mb-4">Everything in Pro, plus:</p>
-    <ul class="text-sm text-[#6E6E6E] space-y-2">
-      <li>Enforce privacy mode org-mode</li>
-      <li>Centeralized team billing</li>
-      <li>Admin dashboard with usage stats</li>
-      <li>SALM/OIDC SSO</li>
-    </ul>
   </div>
 </div>
 
@@ -699,32 +659,9 @@ class: px-8
   <p class="text-xs">Cursor for Students: Free for 1 year with academic email</p>
 </div>
 
-<div class="mt-6 text-center">
-  <p class="text-xs text-[#6E6E6E]">Source: Cursor.com, May 2025 | Enterprise plans available with custom pricing</p>
+<div class="mt-4 text-center">
+  <p class="text-xs text-[#6E6E6E]">Enterprise plans available with custom pricing | Source: Cursor.com, July 2025</p>
 </div>
-
----
-layout: section
-class: text-center
-background: '#171717'
----
-
-# Break Time ☕
-
-<div class="text-4xl font-bold text-white mb-8">⏰</div>
-
----
-layout: section
-class: text-center
-background: '#171717'
----
-
-# Local Models with Cursor
-
-<div class="text-4xl font-bold text-white mb-8">🖥️</div>
-
-Running AI models locally with Cursor - Demo by @AbdoMosaibah
-
 
 ---
 layout: section
@@ -969,39 +906,6 @@ transition: slide-up
     </ul>
   </div>
 </div>
-
----
-layout: center
-class: text-center px-8
-transition: slide-up
----
-
-# Q) Does anyone use Obsidian?
-
-<v-click>
-
-# Q) Does anyone use Perplexity?
-
-</v-click>
-
----
-layout: center
-class: text-center px-8
-transition: slide-up
----
-
-<img src="/assets/trio_2.jpg" alt="Obsidian" class="w mx-auto" />
-
----
-layout: center
-class: text-center px-8
-transition: slide-up
----
-
-# Live Demo
-Obsidian + Perplexity + Cursor
-
-
 ---
 layout: center
 class: px-8 text-center
@@ -1039,7 +943,7 @@ class: text-center px-8
 
 <div class="mt-8">
   <h2 class="text-2xl font-bold mb-4">Let's Connect & Build Together</h2>
-  <p class="text-lg text-[#6E6E6E] mb-2"><a href="https://x.com/ma7dev" class="text-white">@ma7dev</a> & <a href="https://x.com/AbdoMosaibah" class="text-white">@AbdoMosaibah</a></p>
+  <p class="text-lg text-[#6E6E6E] mb-2"><a href="https://x.com/ma7dev" class="text-white">@ma7dev</a> & <a href="https://x.com/theefaris" class="text-white">@theefaris</a></p>
   <p class="text-lg text-[#6E6E6E] mb-8">Follow for more AI development insights</p>
 </div>
 
